@@ -7,7 +7,7 @@ public class FireFoxDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\engh1\\OneDrive\\Desktop\\Selenium Course\\Configues\\firefox\\geckodriver.exe") ; 
+		System.setProperty("webdriver.gecko.driver", "Value") ; // put the value as agter putting the key 
 
 		WebDriver driver = new FirefoxDriver() ; 
 		driver.navigate().to("http://www.google.com"); // Opening google via firefox 
